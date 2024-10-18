@@ -2,6 +2,9 @@ FROM node:18-alpine
 
 ARG N8N_VERSION=1.62.6
 
+# Instala n8n nodes community (LangChain y otros nodos)
+#RUN npm install n8n-nodes-langchain
+
 RUN apk add --update graphicsmagick tzdata
 
 USER root
