@@ -1,6 +1,6 @@
 FROM node:18-alpine
 
-ARG N8N_VERSION=1.62.6
+ARG N8N_VERSION=1.67.1
 
 # Instala n8n nodes community (LangChain y otros nodos)
 #RUN npm install n8n-nodes-langchain
